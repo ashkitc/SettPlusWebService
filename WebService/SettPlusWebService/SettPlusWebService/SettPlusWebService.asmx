@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="SettPlusWebService.asmx.cs" Class="SettPlusWebService.Service1" %>

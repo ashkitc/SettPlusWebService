@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2707bcf5afbc4288a1d51c9e6ffc3a90" Name="Диаграмма1">
+        <EntityTypeShape EntityType="AndriyTestModel.AppExpiry" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AndriyTestModel.BlackList" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AndriyTestModel.Company" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AndriyTestModel.CompanyDetail" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AndriyTestModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="AndriyTestModel.FK_AppExpiry_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="AndriyTestModel.FK_Company_BlackList" ManuallyRouted="false" />
+        <AssociationConnector Association="AndriyTestModel.FK_CompanyDetails_Company" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="AndriyTestModel.SettUser" Width="1.5" PointX="2.625" PointY="8.375" />
+        <AssociationConnector Association="AndriyTestModel.FK_SettUser_Company" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
